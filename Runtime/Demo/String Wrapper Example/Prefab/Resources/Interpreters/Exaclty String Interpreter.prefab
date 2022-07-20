@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7419254721251062358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7419254721251062353}
+  - component: {fileID: 7419254721251062352}
+  - component: {fileID: 7419254721251062355}
+  m_Layer: 0
+  m_Name: String to Actions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7419254721251062353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7419254721251062358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7419254722067992416}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7419254721251062352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7419254721251062358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8efebec08c11002438c1559571e96280, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_actions:
+  - m_stringToCheck: left
+    m_useTrim: 1
+    m_useLowerCase: 1
+    m_toDo:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7419254721251062355}
+          m_TargetAssemblyTypeName: StringToActionDemoMoveCubeMono, be.eloistree.genericauctioninterpreters
+          m_MethodName: MoveLeft
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    m_executeOnUnityThread: 1
+  - m_stringToCheck: right
+    m_useTrim: 1
+    m_useLowerCase: 1
+    m_toDo:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7419254721251062355}
+          m_TargetAssemblyTypeName: StringToActionDemoMoveCubeMono, be.eloistree.genericauctioninterpreters
+          m_MethodName: MoveRight
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    m_executeOnUnityThread: 1
+  - m_stringToCheck: up
+    m_useTrim: 1
+    m_useLowerCase: 1
+    m_toDo:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7419254721251062355}
+          m_TargetAssemblyTypeName: StringToActionDemoMoveCubeMono, be.eloistree.genericauctioninterpreters
+          m_MethodName: MoveForward
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    m_executeOnUnityThread: 1
+  - m_stringToCheck: down
+    m_useTrim: 1
+    m_useLowerCase: 1
+    m_toDo:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7419254721251062355}
+          m_TargetAssemblyTypeName: StringToActionDemoMoveCubeMono, be.eloistree.genericauctioninterpreters
+          m_MethodName: MoveBackward
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    m_executeOnUnityThread: 1
+  m_actionsInUpdateQueue: []
+--- !u!114 &7419254721251062355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7419254721251062358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9274d7ae431bfba41bb3ddbac013bd18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 0}
+  m_distance: 1
+--- !u!1 &7419254722067992423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7419254722067992416}
+  - component: {fileID: 7419254722067992422}
+  - component: {fileID: 7419254722067992417}
+  - component: {fileID: 7419254722067992418}
+  - component: {fileID: 7419254722067992419}
+  m_Layer: 0
+  m_Name: Exaclty String Interpreter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7419254722067992416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7419254722067992423}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7419254721251062353}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7419254722067992422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7419254722067992423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5bbf0b81428d940a8ae1e9c430413a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_interpreterId: f4da4591-9f30-43ab-b96b-221216a3d8f9
+  m_interpreterName: Equals String to Actions
+  m_stringToActionRegister: {fileID: 7419254721251062352}
+  m_starWith: 3c003d00
+  m_endWith: 3d003e00
+  m_lastReceived: 
+  m_lastReceivedNoId: 
+--- !u!114 &7419254722067992417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7419254722067992423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e39fb48e27fa74fb176dc96359feef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_priorityValueInQueue: 800
+--- !u!114 &7419254722067992418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7419254722067992423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10e9bb5df5cf4c42974c1ae954142ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_markDownPriority: 0
+  m_localCheatsheetInMarkDown: 
+  m_urlRemoteUpdatedCheatsheet: 
+--- !u!114 &7419254722067992419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7419254722067992423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51556dd2c15a77145a2f928326f07a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_markDownPriority: 0
+  m_whatAllowsToClaimDescription: "It start by `==`  \n"

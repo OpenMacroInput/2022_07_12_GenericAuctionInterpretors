@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.genericauctioninterpreters",                              
+  "displayName": "Generic Auction Interpreters",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "This tool allows the creation of auction house for commands in you Unity app where you can hook interpreters that know how to execute it.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/OpenMacroInput/2022_07_12_GenericAuctionInterpretors.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

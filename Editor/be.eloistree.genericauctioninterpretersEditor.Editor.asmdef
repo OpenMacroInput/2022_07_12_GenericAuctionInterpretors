@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.genericauctioninterpretersEditor",          
+    "references": ["be.eloistree.genericauctioninterpreters"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   
